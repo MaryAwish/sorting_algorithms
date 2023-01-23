@@ -44,5 +44,6 @@ void merge_recursion(int *arr, int *array, size_t left, size_t right);
 void merge_subarray(int *arr, int *array, size_t left,
 		size_t middle, size_t right);
 void heapify(int *array, size_t s, size_t root, size_t size);
+void count_sort_LSD(int *array, size_t size, size_t lsd);
 
 #endif
